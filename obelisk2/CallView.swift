@@ -6,11 +6,6 @@
 import SwiftUI
 
 struct CallView: View {
-    
-   // @EnvironmentObject var model: Model
-    
-    
-    
     @Binding var isContentViewActive: Bool
     
     var body: some View {
@@ -24,7 +19,7 @@ struct CallView: View {
             let ScreenArea = Width*Height
             
             ZStack (alignment: .top ){
-                Color.blue.edgesIgnoringSafeArea(.all)
+                Color(hue: 0.61, saturation: 0.82, brightness: 0.27).edgesIgnoringSafeArea(.all)
                 
                 VStack(spacing: 1) {
                     Image("IconSample").resizable().frame(width: Width, height: Width, alignment: .top )
@@ -36,17 +31,14 @@ struct CallView: View {
                     
              
                }
-                
-                
+             
                 Spacer()
                 VStack(spacing: 1) {
                     
                     Spacer()
                     
-                    
-                    
                     let iPhonewidthDifference =  ScreenArea / Height / 0.92
-                    let CallButtonSize = iPhonewidthDifference  / 3.75
+                    let CallButtonSize = iPhonewidthDifference  / 3.65
                     
                     
                     
@@ -68,7 +60,7 @@ struct CallView: View {
                         }
                         Spacer()
                     }
-                    
+                 
                     
                     
                     Button(action: {

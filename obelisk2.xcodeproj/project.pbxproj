@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		CE21855525E9146E00CBE507 /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21855425E9146E00CBE507 /* CallView.swift */; };
 		CE2185A125EBE73400CBE507 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2185A025EBE73300CBE507 /* LoginView.swift */; };
+		CE594E3326060CF800EA1A85 /* modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE594E3226060CF800EA1A85 /* modal.swift */; };
+		CE6A995E26009C1C0060E6AF /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A995D26009C1C0060E6AF /* RootView.swift */; };
 		CE9E756D25EDB4E9005FE21F /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E756C25EDB4E9005FE21F /* IconView.swift */; };
 		CE9E757225EDBD83005FE21F /* Pass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E757125EDBD83005FE21F /* Pass.swift */; };
-		CEB025FA25E6ADDD009B26A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB025F925E6ADDD009B26A5 /* AppDelegate.swift */; };
 		CEB025FC25E6ADDD009B26A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB025FB25E6ADDD009B26A5 /* SceneDelegate.swift */; };
 		CEB025FE25E6ADDD009B26A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB025FD25E6ADDD009B26A5 /* ContentView.swift */; };
 		CEB0260025E6ADE0009B26A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB025FF25E6ADE0009B26A5 /* Assets.xcassets */; };
@@ -20,7 +21,6 @@
 		CEB0261125E6ADE0009B26A5 /* obelisk2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0261025E6ADE0009B26A5 /* obelisk2Tests.swift */; };
 		CEB0261C25E6ADE0009B26A5 /* obelisk2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0261B25E6ADE0009B26A5 /* obelisk2UITests.swift */; };
 		CEB0262D25E6AF6C009B26A5 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0262C25E6AF6C009B26A5 /* SecondView.swift */; };
-		CEB0263225E6AF91009B26A5 /* ScreenTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0263125E6AF91009B26A5 /* ScreenTransitionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +43,11 @@
 /* Begin PBXFileReference section */
 		CE21855425E9146E00CBE507 /* CallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
 		CE2185A025EBE73300CBE507 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CE594E3226060CF800EA1A85 /* modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modal.swift; sourceTree = "<group>"; };
+		CE6A995D26009C1C0060E6AF /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		CE9E756C25EDB4E9005FE21F /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
 		CE9E757125EDBD83005FE21F /* Pass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Pass.swift; path = Transition/Pass.swift; sourceTree = "<group>"; };
 		CEB025F625E6ADDD009B26A5 /* obelisk2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = obelisk2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEB025F925E6ADDD009B26A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEB025FB25E6ADDD009B26A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CEB025FD25E6ADDD009B26A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEB025FF25E6ADE0009B26A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +61,6 @@
 		CEB0261B25E6ADE0009B26A5 /* obelisk2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = obelisk2UITests.swift; sourceTree = "<group>"; };
 		CEB0261D25E6ADE0009B26A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEB0262C25E6AF6C009B26A5 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
-		CEB0263125E6AF91009B26A5 /* ScreenTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTransitionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,15 +111,15 @@
 		CEB025F825E6ADDD009B26A5 /* obelisk2 */ = {
 			isa = PBXGroup;
 			children = (
-				CEB025F925E6ADDD009B26A5 /* AppDelegate.swift */,
 				CEB025FB25E6ADDD009B26A5 /* SceneDelegate.swift */,
+				CE6A995D26009C1C0060E6AF /* RootView.swift */,
+				CE594E3226060CF800EA1A85 /* modal.swift */,
 				CE2185A025EBE73300CBE507 /* LoginView.swift */,
 				CE9E757125EDBD83005FE21F /* Pass.swift */,
 				CE9E756C25EDB4E9005FE21F /* IconView.swift */,
 				CEB025FD25E6ADDD009B26A5 /* ContentView.swift */,
 				CEB0262C25E6AF6C009B26A5 /* SecondView.swift */,
 				CE21855425E9146E00CBE507 /* CallView.swift */,
-				CEB0263125E6AF91009B26A5 /* ScreenTransitionView.swift */,
 				CEB025FF25E6ADE0009B26A5 /* Assets.xcassets */,
 				CEB0260425E6ADE0009B26A5 /* LaunchScreen.storyboard */,
 				CEB0260725E6ADE0009B26A5 /* Info.plist */,
@@ -284,14 +284,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEB025FA25E6ADDD009B26A5 /* AppDelegate.swift in Sources */,
 				CE21855525E9146E00CBE507 /* CallView.swift in Sources */,
 				CEB025FC25E6ADDD009B26A5 /* SceneDelegate.swift in Sources */,
 				CE9E756D25EDB4E9005FE21F /* IconView.swift in Sources */,
 				CE9E757225EDBD83005FE21F /* Pass.swift in Sources */,
-				CEB0263225E6AF91009B26A5 /* ScreenTransitionView.swift in Sources */,
+				CE6A995E26009C1C0060E6AF /* RootView.swift in Sources */,
 				CEB0262D25E6AF6C009B26A5 /* SecondView.swift in Sources */,
 				CE2185A125EBE73400CBE507 /* LoginView.swift in Sources */,
+				CE594E3326060CF800EA1A85 /* modal.swift in Sources */,
 				CEB025FE25E6ADDD009B26A5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,7 +14,7 @@ import Foundation
 struct ContentView: View {
 
     @State private var isActive = false
-    
+    @State var isPresentingModal: Bool = false
     
     var body: some View {
         
@@ -24,7 +24,7 @@ struct ContentView: View {
                 let width = geometry.size.width
                 
                 ZStack {
-                    Color.blue.edgesIgnoringSafeArea(.all)
+                    Color(hue: 0.61, saturation: 0.82, brightness: 0.27).edgesIgnoringSafeArea(.all)
                     
                     VStack {
                         
@@ -33,8 +33,7 @@ struct ContentView: View {
  NavigationLink(destination: SecondView(isContentViewActive: $isActive), isActive: $isActive ) {
                                             Button(action: {
                                                 self.isActive = true
-                                              
-                                            }
+                                          }
                             
                             ) {Image("ONにする").resizable().frame(width: width, height: width, alignment: .center)
                             }

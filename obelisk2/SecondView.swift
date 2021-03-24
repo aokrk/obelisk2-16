@@ -10,30 +10,22 @@ import UIKit
 import SwiftUI
 
 struct SecondView: View {
-   // @EnvironmentObject var model: Model
        @State private var isActive = false
         @Binding var isContentViewActive: Bool
     
     var body: some View {
-        
-       
-        
         
         GeometryReader{geometry in
             let width = geometry.size.width
             let height = geometry.size.height
             
             ZStack {
-                Color.blue.edgesIgnoringSafeArea(.all)
+                Color(hue: 0.61, saturation: 0.82, brightness: 0.27).edgesIgnoringSafeArea(.all)
                 
                 Image("ON").resizable().frame(width: width, height: width, alignment: .center )
                 
                 
-            
-                
-                
-                
-                NavigationLink(destination: CallView(isContentViewActive: $isContentViewActive), isActive: $isActive) {
+ NavigationLink(destination: CallView(isContentViewActive: $isContentViewActive), isActive: $isActive) {
                          Button(action: {
                              self.isActive = true
                          }, label: {
@@ -58,15 +50,6 @@ struct SecondView: View {
                         
                         
                     }
-                    
-        
-                
-                
-                
-                
-                
-                
-                
                 
             }
             
@@ -76,44 +59,6 @@ struct SecondView: View {
         .navigationBarBackButtonHidden(true)
     }
 }
-
-
-
-
-
-
-
-
-//
-//struct SecondView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        SecondView()
-//    }
-//}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
